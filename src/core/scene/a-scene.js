@@ -593,7 +593,8 @@ module.exports.AScene = registerElement('a-scene', {
               antialias: rendererConfig.antialias,
               premultipliedAlpha: true,
               preserveDrawingBuffer: false,
-              powerPreference: 'default'
+              powerPreference: 'default',
+              xrCompatible: true
             });
 
             if (context) {
