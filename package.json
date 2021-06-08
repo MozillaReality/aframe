@@ -87,13 +87,13 @@
     "sinon": "^1.17.5",
     "sinon-chai": "2.8.0",
     "snazzy": "^5.0.0",
-    "three": "github:mozillareality/three.js#hubs/master",
+    "three": "^0.128.0",
     "too-wordy": "ngokevin/too-wordy",
     "uglifyjs": "^2.4.10",
     "write-good": "^0.9.1"
   },
   "peerDependencies": {
-    "three": "github:mozillareality/three.js#hubs/master"
+    "three": "^0.128.0"
   },
   "link": true,
   "browserify": {
